@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 0%;
+  text-align: center;
+  background-image: linear-gradient(to left,rgb(8, 86, 91),rgb(104, 128, 132));
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  background: transparent;
+}
+
+.nav {
+  display: flex;
+  background-color: rgb(61, 61, 61);
+}
+
+.nav a {
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.nav a:hover {
+  background-color: rgba(34, 100, 133, 0.422);
+  color: black;
+}
+
+.block {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.block a {
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.block a:hover {
+  color: black;
+}
+
+.block1 {
+  flex: 100%;
+}
+
+.invisible1 {
+  display: block;
+  background-image: url("IMG_1239.JPG");
+  background-color: rgb(0, 67, 134);
+  background-size: cover;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.invisible1:hover {
+  background-size: 120%;
+}
+
+.block2 {
+  flex: 100%;
+}
+
+.invisible2 {
+  display: block;
+  background-image: url("IMG_1186.png");
+  background-color: rgb(0, 67, 134);
+  background-size: cover;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.invisible2:hover {
+  background-size: 120%;
+}
+
+.block3 {
+  flex: 100%;
+}
+
+.invisible3 {
+  display: block;
+  background-image: url("IMG_1208.png");
+  background-color: rgb(0, 67, 134);
+  background-size: cover;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.invisible3:hover {
+  background-size: 120%;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rowPortfolio {  
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 2%;
+  width: auto;
+  height: auto;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 2%;
+}
+
+.main2 {
+  flex: 70%;
+  background-color: white;
+  padding: 2%;
+  text-align: center;
+}
+
+.main3 {
+  flex: 70%;
+  background-color: white;
+  padding: 2%;
+  text-align: center;
+}
+
+.main3 h1 {
+  text-align: left;
+}
+
+img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 2%;
+}
+
+.imgPortfolio {
+  background-color: #aaa;
+  width: 100%;
+  padding: 2%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2%;
+}
+
+ul li {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(61, 61, 61);
+}
+
+.footer a {
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.footer a:hover {
+  background-color: rgba(34, 100, 133, 0.422);
+  color: black;
+}
+
+.footerContacto {
+  display: flex;
+  background-color: rgb(61, 61, 61);
+  position: fixed;
+  width:100%;
+  bottom:0px;
+}
+
+.footerContacto a {
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.footerContacto a:hover {
+  background-color: rgba(34, 100, 133, 0.422);
+  color: black;
+}
+
+.footerIndex {
+  display: flex;
+  background-color: rgb(61, 61, 61);
+  position: fixed;
+  width:100%;
+  bottom:0px;
+}
+
+.footerIndex a {
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.footerIndex a:hover {
+  background-color: rgba(34, 100, 133, 0.422);
+  color: black;
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+  
+  body {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .row, .nav, .footer, .footerContacto, .footerIndex {   
+    flex-direction: column;
+  }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+
+  .main2 {
+    text-align: left;
+
+  }
+
+  .youtube {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+}

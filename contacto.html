@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MiWebsite</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <a href="/MyPage/index.html" aria-current="page"><img class="logo" src="/MyPage/media/fatou.png" alt="Home"></a>
+            </header>
+            
+            <nav class="nav">
+                <a href="/MyPage/index.html" aria-current="page">Home</a>
+                <a href="/MyPage/portfolio.html">Portfolio</a>
+                <a href="/MyPage/biografía.html">Biografía</a>
+                <a href="/MyPage/contacto.html">Contacto</a>
+            </nav>
+
+            <section class="row">
+                <article class="main3">
+                    <h1>Hablamos?</h1>
+                    <br>
+                </article>
+                <form class="form" action="mailto:edufatou@gmail.com" method="post" enctype="text/plain"></form>
+                        <fieldset>
+                          <legend>Tus datos</legend>
+                          <label for="nombre">Nombre:</label><br>
+                          <input type="text" name="nombre" placeholder="y apellidos"><br>
+                          <label for="email">Email:</label><br>
+                          <input type="email" name="email" placeholder="con su @"><br>
+                          <label for="check">Me gusta la fruta</label><br>
+                          <input type="checkbox" name="check" value="sí"><br>
+                          <label for="favorita">Cuál es tu favorita?</label><br>
+                          <select id="favorita" name="favorita">
+                            <option value=""></option>
+                            <option value="plátano">Plátano</option>
+                            <option value="fresa">Fresa</option>
+                            <option value="naranja">Naranja</option>
+                            <option value="kiwi">Kiwi</option>
+                            <option value="manzana">Manzana</option>
+                          </select><br>
+                          <br><textarea required>Cuéntame</textarea><br>
+                          <button type="submit" formmethod="post" value="Send">Enviar</button>
+                          <button type="button" value="delete">Borrar todo</button>
+                       </fieldset>
+                    </form><br><br><br>
+            </section>
+            
+            <footer class="footerContacto">
+                <a href="https://www.filmaffinity.com/es/name.php?name-id=219621349" target="_blank">Filmaffinity</a>
+                <a href="https://www.linkedin.com/in/edu-fatou-b97b83291/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/edufatou?igsh=MWQxM3o2NXFpMW51dg%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+                <a href="https://www.youtube.com/@edufatou8780/featured" target="_blank">Youtube</a>
+            </footer>
+        </main>
+    </body>
+</html>
